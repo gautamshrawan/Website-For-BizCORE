@@ -7,21 +7,20 @@
   --hue-color: 340;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 155; /* Change this to adjust the overall green hue */
+  --hue-color: 162; /* Change this to adjust the overall green hue */
 
-  --first-color: hsl(var(--hue-color), 70%, 35%);
-  --first-color-second: hsl(var(--hue-color), 70%, 25%);
-  --first-color-alt: hsl(var(--hue-color), 60%, 30%);
-  --first-color-lighter: hsl(var(--hue-color), 60%, 40%);
+  --first-color: hsl(97, 48%, 45%);
+  --first-color-second: hsl(96, 50%, 51%);
+  --first-color-alt: hsl(96, 50%, 51%);
+  --first-color-lighter: hsl(45, 82%, 87%);
   --title-color: hsl(0, 0%, 90%);
   --text-color: hsl(0, 0%, 80%);
   --text-color-light: hsl(0, 0%, 70%);
-  --input-color: hsl(var(--hue-color), 10%, 20%);
+  --input-color: hsl(132, 50%, 15%);
   --body-color: hsl(0, 0%, 10%);
-  --container-color: hsl(var(--hue-color), 20%, 20%);
-  --scroll-bar-color: hsl(var(--hue-color), 20%, 30%);
-  --scroll-thumb-color: hsl(var(--hue-color), 20%, 40%);
-
+  --container-color: hsl(132, 30%, 30%);
+  --scroll-bar-color: hsl(132, 30%, 40%);
+  --scroll-thumb-color: hsl(132, 30%, 50%);
 
   /* Font and typography */
   --body-font: "Poppins", sans-serif;
@@ -94,7 +93,7 @@ body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: rgb(4, 62, 4);
+  background-color: hsl(199, 58%, 29%);
   color: var(--text-color);
 }
 
